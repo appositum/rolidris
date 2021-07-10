@@ -28,3 +28,6 @@ parseTerm : Parser AST
 parseTerm =  (literalBool <?> "boolean")
          <|> (literalInt <?> "number")
          <|> (var <?> "identifier")
+
+readExpr : String -> Either String AST
+readExpr = Strings.parse parseTerm
