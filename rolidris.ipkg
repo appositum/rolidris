@@ -10,3 +10,4 @@ modules = Main
         , Rolidris.Syntax
 
 main = Main
+executable = rolidris

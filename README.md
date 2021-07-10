@@ -8,3 +8,8 @@ $ ./target/bin/rolidris
 # or load the lib into the repl
 $ elba repl
 ```
+or
+```bash
+$ nix-build
+$ ./result/bin/rolidris
+```

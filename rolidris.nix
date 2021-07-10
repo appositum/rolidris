@@ -6,6 +6,8 @@
 build-idris-package  {
   name = "rolidris";
   version = "0.1.0.0";
+  isLibrary = true;
+  isExecutable = true;
 
   # This is the .ipkg file that should be built, defaults to the package name
   # In this case it should build `Yaml.ipkg` instead of `yaml.ipkg`

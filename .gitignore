@@ -1,5 +1,8 @@
+### Idris ###
 /target
 *.ibc
 *.o
 elba.lock
+
+### Nix ###
 /result
