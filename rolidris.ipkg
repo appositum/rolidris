@@ -2,7 +2,7 @@ package rolidris
 
 sourcedir = src
 
-pkgs = contrib, effects
+pkgs = contrib, lightyear
 
 modules = Main
         , Rolidris
