@@ -5,7 +5,4 @@ stdenv.mkDerivation rec {
   buildInputs = [
     (idrisPackages.with-packages (with idrisPackages; [ (callPackage ./rolidris.nix {}) ]))
   ];
-  shellHook = ''
-  idris --execute ./result/libs/rolidris/Main.ibc
-  '';
 }
